@@ -11,6 +11,6 @@ stdenv.mkDerivation {
   installPhase = ''
     mkdir -p $out
     cp $src/src/* $out
-    cp $src/README/md $out
+    cp $src/README.md $out
   '';
 }

@@ -8,12 +8,14 @@
   outputs =
     { nixpkgs, ... }:
     let
-      pkgs = import nixpkgs { };
+      system = "x86_64-linux";
+
+      pkgs = import nixpkgs { inherit system; };
 
       flavour = pkgs.callPackage ./flavour.nix { };
     in
     {
-      packages = rec {
+      packages.x86_64-linux = rec {
         gruv = flavour;
         default = gruv;
       };
