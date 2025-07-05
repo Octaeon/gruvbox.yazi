@@ -18,10 +18,13 @@ This theme/flavour was based on sanjinso's **Monokai Vibrant**, which was in tur
 
 ## Installation
 
-Using the Ya package manager:
+<s>Using the Ya package manager:</s>
 ```bash
-ya pack -a sanjinso/monokai-vibrant
+ya pkg add Octaeon/gruvbox.yazi
 ```
+Actually, no - the structure of this repository doesn't mesh well with how ya works.
+Oh well - maybe I'll fix it in the future
+
 
 Using Nix Flakes:
 ```nix
