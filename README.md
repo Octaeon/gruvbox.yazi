@@ -14,7 +14,7 @@ Monokai Vibrant Theme based on jonotansberg "tweaked Monokai Dark Soda" .tmTheme
 
 ## 👀 Preview
 
-<img src="preview.png" width="600" />
+<img src="src/preview.png" width="600" />
 
 ## 🎨 Installation
 

@@ -5,11 +5,12 @@ stdenv.mkDerivation {
   version = "1.0";
 
   # Source
-  src = ./src/.;
+  src = ./.;
 
   # Installation
   installPhase = ''
     mkdir -p $out
-    cp $src/* $out
+    cp $src/src/* $out
+    cp $src/README/md $out
   '';
 }
