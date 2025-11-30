@@ -1,5 +1,5 @@
-{ stdenv }:
-stdenv.mkDerivation {
+{ stdenvNoCC }:
+stdenvNoCC.mkDerivation {
   # Metadata
   pname = "gruvbox.yazi";
   version = "1.0";
